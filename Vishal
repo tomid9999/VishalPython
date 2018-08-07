@@ -1,0 +1,56 @@
+date=int(input("Enter today's Date in form of (DD):-"))
+month=int(input("Enter today's Month in form of (MM):-"))
+Year=int(input("Enter today's Year in form of (YYYY):-"))
+
+if month==1:
+    print("you chose the month January")
+    print("days left in this month is:-", 31-date)
+
+elif month==2:
+    a=input("Is it a leap year?:-")
+    if a=='yes':
+        print("you chose the month February")
+        print("the number of days left in this month", 29-date)
+    else:
+        print("you chose the month February")
+        print("the number of days left in this month", 28-date)
+
+elif month==3:
+    print("you chose the month March")
+    print("days left in this month is-", 31-date)
+
+elif month==4:
+    print("you chose the month April")
+    print("days left in this month is-", 30-date)
+
+elif month==5:
+    print("you chose the month May")
+    print("days left in this month is-", 31-date)
+
+elif month==6:
+    print("you chose the month June")
+    print("days left in this month is-", 30-date)
+
+elif month==7:
+    print("you chose the month July")
+    print("days left in this month is-", 31-date)
+
+elif month==8:
+    print("you chose the month August")
+    print("days left in this month is-", 31-date)
+
+elif month==9:
+    print("you chose the month September")
+    print("days left in this month is-", 30-date)
+
+elif month==10:
+    print("you chose the month October")
+    print("days left in this month is-", 31-date)
+
+elif month==11:
+    print("you chose the month November")
+    print("days left in this month is-", 30-date)
+
+elif month==12:
+    print("you chose the month December")
+    print("days left in this month is-", 31-date)
