@@ -54,3 +54,5 @@ elif month==11:
 elif month==12:
     print("you chose the month December")
     print("days left in this month is-", 31-date)
+else:
+    print("You input wrong values")
